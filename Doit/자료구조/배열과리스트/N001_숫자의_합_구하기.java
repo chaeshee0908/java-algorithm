@@ -1,4 +1,4 @@
-package Doit.자료구조;
+package Doit.자료구조.배열과리스트;
 
 import java.util.Scanner;
 

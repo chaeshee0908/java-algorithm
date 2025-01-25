@@ -1,4 +1,4 @@
-package Doit.자료구조;
+package Doit.자료구조.슬라이딩윈도우;
 
 import java.io.BufferedReader;
 import java.io.IOException;

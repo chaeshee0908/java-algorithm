@@ -1,4 +1,4 @@
-package Doit.자료구조;
+package Doit.자료구조.투포인터;
 
 import java.util.Arrays;
 import java.util.Scanner;

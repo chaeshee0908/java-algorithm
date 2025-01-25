@@ -1,4 +1,4 @@
-package Doit.자료구조;
+package Doit.자료구조.스택과큐;
 
 import java.util.PriorityQueue;
 import java.util.Scanner;
