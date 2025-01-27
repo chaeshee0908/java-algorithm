@@ -33,11 +33,10 @@ public class N028_트리의_지름_구하기 {
         visited = new boolean[N+1];
         // 임의의 노드에서 각 노드까지의 거리 구하기 -> O(n)
         bfs(1);
-        int maxDistance = 1;
-        int startIndex = 0;
+        int startIndex = 1;
         // 임의의 노드에서 가장 먼 노드로부터 최장 거리 찾기
         for (int i = 0; i <= N; i++) {
-            if (maxDistance < distance[i]) {
+            if (distance[startIndex] < distance[i]) {
                 startIndex = i;
             }
         }
@@ -64,13 +63,13 @@ public class N028_트리의_지름_구하기 {
             }
         }
     }
-}
 
-class Edge {
-    int v;
-    int dist;
-    public Edge(int v, int dist) {
-        this.v = v;
-        this.dist = dist;
+    static class Edge {
+        int v;
+        int dist;
+        public Edge(int v, int dist) {
+            this.v = v;
+            this.dist = dist;
+        }
     }
 }
